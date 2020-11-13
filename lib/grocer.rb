@@ -7,6 +7,7 @@ def find_item_by_name_in_collection(name, collection)
  return nil
 end
 
+
 def consolidate_cart(cart)
 consolidated = []
 cart.each do |each_item|
